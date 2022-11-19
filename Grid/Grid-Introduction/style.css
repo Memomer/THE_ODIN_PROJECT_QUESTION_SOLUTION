@@ -1,0 +1,22 @@
+ .container{
+    display: grid;    /*Container containes the grid and direct child elements are grid items*/   /*you can make grid container inside grid container*/
+   /* grid-template-rows: 50px 50px 50px 50px;      /*to specify the number of rows and coloumns*/
+  /* grid-template-columns: 50px 50px 50px 50px;*/
+   grid-template: 50px 50px / 50px 50px;  /* makes 1 row and one coloumn
+   grid-auto-rows: 50px ;  /*  '/ '  to seperate rows and coloumns*/  /*implicitly defines new tracks for coloumns and row not mentioned*/
+  /*set values of implicitly made tracks*/
+  /*grid-auto-rows: 50px;*/
+   column-gap: 10px;
+   row-gap: 10px;
+}
+
+
+/*.container {
+    display: grid;
+    grid-template-columns: 20px [col-start] 20px [col-start] 20px [col-start];
+  }  */
+
+.test{
+    border: 5px solid brown
+
+}

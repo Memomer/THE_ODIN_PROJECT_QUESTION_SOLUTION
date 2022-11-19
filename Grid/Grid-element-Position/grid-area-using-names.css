@@ -1,0 +1,38 @@
+.container{
+    display: inline-grid;
+    text-align: center;
+    grid-template: 50px 50px 50px 50px 50px/50px 50px 50px 50px 50px;
+    background-color: lightblue;
+    grid-template-areas: 
+    "living-room living-room living-room living-room living-room"
+    "living-room living-room living-room living-room living-room"
+    "bedroom bedroom bathroom kitchen kitchen"
+    "bedroom bedroom bathroom kitchen kitchen"
+    "closet closet bathroom kitchen kitchen"      /*. to indicate empty cell*/
+}
+                       
+.room{
+    border: 3px solid red;
+}
+
+#Living-room{
+    grid-area: living-room;
+}
+#bathroom{
+    grid-area:bathroom;
+}
+#kitchen{
+    grid-area: kitchen;
+}
+
+#bedroom{
+    grid-area: bedroom;
+}
+
+#closet{
+    grid-area: closet;
+}
+
+
+/*{
+    grid-column: X/ span Y;  /*Span number of tracks*/ } */

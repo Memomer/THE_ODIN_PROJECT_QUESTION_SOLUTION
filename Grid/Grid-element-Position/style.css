@@ -1,0 +1,53 @@
+/*.container{
+    display: grid;                                         /*inline grid will just take up the necessary space*/
+/*    grid-template: 50px 50px 50px / 50px 50px 50px;
+    grid-auto-flow: rows;
+} */
+
+.container{
+    display: inline-grid;
+    grid-template: 40px 40px 40px 40px 40px/40px 40px 40px 40px 40px;
+    background-color: green;
+}
+
+.room{
+    border: 1px solid;
+    font-size: 30%;
+    text-align: center;
+}
+
+#Living-room{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#kitchen{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end:6;
+}
+
+#bedroom{
+    grid-column-start:3;
+    grid-column-end:5;
+    grid-row-start: 3;   /*grid-column for start and end , '/ to divide'*/
+    grid-row-end: 5;
+}
+
+#closet{
+    grid-row-start: 5;
+    grid-row-end: 6;    
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+
+#bathroom{
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+
+

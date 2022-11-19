@@ -1,0 +1,31 @@
+.grid-container {
+    resize: both;         /*resizees the container dynamically*/
+    overflow: auto;       /*scrolling inside the grid if container is smaller than the items in it*/
+    display: grid;    
+    gap: 4px;              
+    padding: 4px;
+    border: 1px solid grey;
+    background-color: skyblue;
+    grid-template-rows: repeat(2, minmax(100px,200px));                         /* fr unit dynamically changes the size of grid-template and the items as resize-both dynamically changes the size of grid container*/
+    grid-template-columns: repeat(5,  minmax(100px,200px));                        /*even % can be used when changing the size*/
+                                                               /*min max for responsive ness*/
+  }
+   /*minmax() to set min shrik and max shrink*/
+  .grid-item {
+    background-color: #444;
+    text-align: center;
+    color: #ddd;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    padding: 12px;
+  }
+  
+  p {
+    margin: 12px auto 24px;
+  }
+  
+  img {
+    height: 60px;
+  }
+
+  /*clamp() is used set an ideal size unless the grid element reaches a minimum, maximum size, at which case those either of those values will be used*/
