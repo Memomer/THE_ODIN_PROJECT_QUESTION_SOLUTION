@@ -1,0 +1,19 @@
+.flex-container {
+    background: peachpuff;
+    border: 4px solid yellow;
+    height: 80px;
+    width: 100px;
+    display: flex;
+}
+
+
+.flex-container div{
+    
+    background-color: aqua;
+    border: 3px solid brown;
+    width: 100px;
+    height: 80px;
+    flex:1;
+}
+
+/*sizes of each flex item is equal while shrinking container because default value of shrink and grow is 1, if it is 0 and basis is 0% then it will take width specified in its css*/

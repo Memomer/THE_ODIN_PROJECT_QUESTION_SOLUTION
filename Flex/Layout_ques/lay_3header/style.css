@@ -1,0 +1,55 @@
+.header{
+    
+  display:flex;
+  flex:1;
+  justify-content:space-between;
+}
+
+li{
+  text-align: center;
+  padding-top:7px;
+}
+
+.right .notif{
+align-self: center;
+font-size: 26px;
+}
+
+
+.left{ 
+padding-left:0px;
+display:flex;
+list-style:none;
+gap:20px;
+align-content:center;
+}
+
+.Logo{
+font-weight:900px;
+font-size:50px;
+color:purple;
+width: 100px;
+
+}
+
+.right{
+ display:flex;
+ list-style:none;
+ gap:10px;
+}
+
+.circle{
+background-color:blueviolet;
+width:60px;
+border-radius:10000000000px;
+}
+
+.Logo{
+flex:1 1 0;
+}
+
+.left li{
+  padding-top: 23px;
+  font-size: 21px;
+  color: blueviolet;
+}

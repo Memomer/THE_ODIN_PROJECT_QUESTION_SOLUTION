@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex:auto;
+    flex-flow: column wrap;
+    font-weight: 900;
+    font-style: Garamount;
+
+}
+img{
+   width: 100px;
+   height: 100px;
+}
+.title{
+    text-align: center;
+
+}
+
+.panel{
+    display: flex;
+    flex-flow: row wrap;
+    flex:1 1 auto;
+    justify-content: space-evenly;
+    gap: 32px;
+}
+
+ul{
+   list-style: none;
+   text-align: center;
+}

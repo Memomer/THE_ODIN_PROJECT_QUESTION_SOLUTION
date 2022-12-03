@@ -1,0 +1,7 @@
+.container{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    border: 3px pink solid;
+    align-items: flex-end;
+}

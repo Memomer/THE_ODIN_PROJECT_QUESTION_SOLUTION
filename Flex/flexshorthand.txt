@@ -1,0 +1,27 @@
+CSS shorthand property which saves time and energy of the developer by reducing the size of words used to convey a meaning,
+  Like defining padding in all four sides and  typing padding-top, padding-bottom and so forth we can just type padding: X Y Z A;
+   here, reduction of property name whilst increase the use case is the speciality of CSS shorthand.
+
+
+
+Flex shrink and flex grow when used inside a flex item specifies the relative
+  growth-rate/shrink-rate one item will have in terms of the other when the browsers size is changed
+    as it directly affects the containers size.
+
+
+If one doesnt want an "ITEM" to grow or shrink then one need to specify flex-shrink/grow=0 in that item
+
+flex basis sets the basis/start point size of flex items, flex shorthand basis defaults to 0% and flex-basis defaults to auto which means basis will equal
+to width set in the property
+
+
+if basis is auto width is the size of the content unless if the width is provided manually
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+/*direction property sets orientation of flex container and items. row or column. Default direction is '''row''' */
+
+.flex-container div{
+    background-color: aquamarine;
+    border: blue 3px solid;
+    height: 140px;
+    flex:auto;
+}

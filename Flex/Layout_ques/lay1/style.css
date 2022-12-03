@@ -1,0 +1,16 @@
+.container{
+    background-color: aqua;
+    display: flex;
+    flex:auto;
+    justify-content: center;
+    align-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+.items{
+    background-color: antiquewhite;
+    border: 2px solid pink;
+    width: 60px;
+    height: 60px;
+}

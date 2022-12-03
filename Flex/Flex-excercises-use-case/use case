@@ -1,0 +1,7 @@
+nav bar 
+-> split nav using auto margins(right, left, center) ->space around ->space within the items
+->  center using both align-items and justify-content
+-> card footer a block element gets pushed down by a flex element with flex:1 property as it takes up allt he space
+-> media imaging pattern and sizing (try out contraining image medio using properties)
+changing flex shorthand values and playing with alignig=ng properties does the trick to learn how to align stuff
+

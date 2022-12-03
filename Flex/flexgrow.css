@@ -1,0 +1,22 @@
+.flex-container{
+   display: flex;
+
+}
+
+
+.flex-container div{
+    background-color: burlywood;
+    border: 3px solid red;
+    border-radius: 5px;
+    height: 100px;
+    flex:1 1 0%;
+}
+
+.flex-container .one{
+ flex: 10 1 0%;
+}
+
+
+/* why do i need to specify .flex-container before the class name? */
+/* nested class names needed to be specified this way */
+

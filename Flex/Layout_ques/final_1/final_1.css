@@ -1,0 +1,94 @@
+body{
+    font-family: 'Zen Dots', serif;
+    font-size: 20px;
+}
+
+html, body {
+    height:99vh;          /*very important step*/
+}
+img{
+    width: 45vw;
+    height: 30vh;
+}
+.container{
+  display:flex;
+  width:auto;  
+  height:100%;
+  justify-content:space-between; 
+  flex-direction: column; 
+   gap:10px;
+   margin: 0px;
+   padding: 0px;
+                           /*100% width overflows the element and auto resizes without overflowing*/
+}
+                                               /*while designing a website go to popular websites like youtube and take the font size, layout patterns and every other arbitary value so it encourages familiarity in users*/
+.header{
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.store{
+    text-align: left;
+    flex-grow: 1;
+}
+
+.Body{
+   flex: 10;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction: column;
+   gap: 10px;
+}
+.search-bar{
+    width: 50vw;
+    height: 5vh;
+    box-shadow: 1px 1px 1px 1px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.footer{
+    font-size: 11px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 37px;
+    align-items: center;
+    background-color: rgb(96 198 251);
+}
+
+.business{
+    text-align: left;
+    flex-grow: 1;
+}
+
+.Do-the{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    font-size: 12px;
+    font-style: italic;
+    padding-top: 15px;
+}
+
+
+.dth{
+    border: 1px solid black;
+    background-color: grey;
+    width: 4vw;
+    height: 3vh;
+    border-radius: 12px;
+    padding: 7px;
+}
+
+.dth2{
+    border: 1px solid black;
+    background-color: grey;
+    width: 14vw;
+    height: 3vh;
+    border-radius: 12px;
+    padding: 7px;
+}
